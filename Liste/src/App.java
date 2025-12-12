@@ -9,7 +9,8 @@ public class App {
         Lista lista = new Lista();
         lista.addTail(new Nodo("Mario"));
         lista.addTail(new Nodo("Giulio"));
-        lista.addTail(new Nodo("Francesco"));
+        lista.addHead(new Nodo("Francesco"));
+        lista.add("Alex");
 
         System.out.println(lista);
     }
